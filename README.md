@@ -38,7 +38,7 @@ Cấu hình Screen (Giải phương trình bậc nhất ax + b = 0)
 
 Thiết kế giao diện 
 
-<img width="1357" height="663" alt="Image" src="https://github.com/user-attachments/assets/2cd5faf3-2014-49a6-9b7b-818d1a7e0480" />
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/677af0fe-51ba-4358-ae48-58feb8fb385f" />
 
 ### 1. Thuật toán biện luận phương trình trong khối `tinhnghiem.Click`
 
