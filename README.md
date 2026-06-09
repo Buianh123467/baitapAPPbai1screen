@@ -98,7 +98,7 @@ Test ứng dụng trên điện thoại
 
 Giải Phương trình Ax + B = 0
 
-hệ só A = 15
+hệ số A = 15
 
 hệ số B = 14
 
