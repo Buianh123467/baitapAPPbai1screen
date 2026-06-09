@@ -40,7 +40,7 @@ Thiết kế giao diện
 
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/677af0fe-51ba-4358-ae48-58feb8fb385f" />
 
-### 1. Thuật toán biện luận phương trình trong khối `tinhnghiem.Click`
+### . Thuật toán biện luận phương trình trong khối `tinhnghiem.Click`
 
 Sử dụng cấu trúc rẽ nhánh điều kiện `if - else if - else` để kiểm tra các trường hợp của hệ số $a$ và $b$:
 
@@ -52,12 +52,12 @@ Sử dụng cấu trúc rẽ nhánh điều kiện `if - else if - else` để k
   * **Điều kiện (`else`):** Hệ số $a \neq 0$.
   * **Hành động:** Tính toán nghiệm theo công thức $x = -b/a$ (sử dụng các khối toán học `Math` thực hiện phép tính `(0 - txtB.Text) / txtA.Text`). Kết quả hiển thị đầy đủ bao gồm dạng phương trình ban đầu và giá trị nghiệm cụ thể.
 
-### 2. Kỹ thuật tối ưu hiển thị giao diện nâng cao
+### . Kỹ thuật tối ưu hiển thị giao diện nâng cao
 
 * **Khối `join` mở rộng:** Thay vì chỉ hiển thị thông báo nghiệm đơn thuần, ứng dụng sử dụng khối `join` cấu trúc 7 mắt xích (inputs) nhằm tái hiện lại toàn bộ phương trình mà người dùng vừa nhập trước khi trả kết quả, giúp tăng tính trực quan.
 * **Ký tự xuống dòng (`\n`):** Được tích hợp vào giữa chuỗi văn bản của khối `join` nhằm mục đích ngắt dòng tự động trên màn hình thiết bị, phân tách rõ ràng giữa phần "Phương trình" và phần "Kết quả hiển thị" giúp giao diện không bị rối mắt.
 
-### 3. Điều hướng ứng dụng (`quayve.Click`)
+### . Điều hướng ứng dụng (`quayve.Click`)
 
 * Sử dụng khối lệnh `open another screen screenName` gắn với chuỗi văn bản cố định `"Screen1"` để giải phóng ngữ cảnh hiện tại và đưa người dùng quay trở lại màn hình chính (Màn hình Giới thiệu/About) một cách an toàn.
 
