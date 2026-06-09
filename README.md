@@ -63,3 +63,46 @@ Sử dụng cấu trúc rẽ nhánh điều kiện `if - else if - else` để k
 
 * <img width="1339" height="630" alt="Image" src="https://github.com/user-attachments/assets/0717ae3a-459f-4988-877e-c72edbbec351" />
 
+#screen3
+
+Trình Duyệt Nội Bộ Tốc Độ Cao (Screen3)
+
+Kéo thành phần WebViewer1 trong mục User Interface thả vào màn hình.
+
+thêm botton : QUAY VỀ TRANG CHỦ 
+
+tìm ô HomeUrl.
+
+Gõ địa chỉ trang web bạn muốn nó hiện ra : https://k58kmt.tdh.io.vn/
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/95386765-ab96-4686-89f2-b98a29f0eb93" />
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/a4a029af-e825-4fff-8924-1ea3ac2fc757" />
+
+## Chi tiết lập trình Logic (Blocks) - Màn hình Xem Website (Screen3_web)
+
+Màn hình này tích hợp trình duyệt nhúng giúp người dùng có thể tương tác trực tiếp với các tài nguyên web ngoại vi mà không cần rời khỏi ứng dụng.
+
+### 1. Thành phần WebViewer
+* **Chức năng:** Sử dụng đối tượng `WebViewer` để hiển thị trang web đích đã cấu hình sẵn trong thuộc tính `HomeUrl` (địa chỉ: `https://k58kmt.tdh.io.vn/`). Trang web tự động tải ngay khi màn hình này được khởi tạo.
+
+### 2. Logic điều hướng nút quay lại (`btn_vehome.Click`)
+* **Hành động:** Khi người dùng tương tác với nút lệnh "Quay lại Trang chủ" (`btn_vehome`), hệ thống gọi khối xử lý `open another screen screenName` truyền vào nhãn chuỗi `"Screen1"`. 
+* **Mục đích:** Đóng ngữ cảnh duyệt web hiện tại, giải phóng tài nguyên hệ thống và đưa người dùng an toàn trở lại màn hình bảng điều khiển chính (About screen).
+
+Mở MIT AI2 Companion trên điện thoại và kết nối với máy tính qua AI Companion
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/84cfc6d7-c5af-4f69-ab2f-39a05d8c9db8" />
+
+Test ứng dụng trên điện thoại
+
+Giải Phương trình Ax + B = 0
+
+hệ só A = 15
+
+hệ số B = 14
+
+kết quả Nghiệm X = -1.07143
+
+<img width="1920" height="2560" alt="Image" src="https://github.com/user-attachments/assets/328a97c6-e2bd-4330-a338-29d84ed62142" />
+
